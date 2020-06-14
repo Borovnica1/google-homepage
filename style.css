@@ -24,12 +24,12 @@ body {
   list-style: none;
 }
 
-.navbar__link {
+a {
   color: rgb(39, 39, 39);
   text-decoration: none;
 }
 
-.navbar__link:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -57,4 +57,73 @@ body {
 
 .navbar__profile {
   border-radius: 50%;
+}
+
+.container {
+  max-width: 700px;
+  margin: 10rem auto;
+}
+
+.container img {
+  display: block;
+  margin: auto;
+}
+
+.container__search {
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 25px;
+  display: block;
+  margin: 1rem auto;
+  padding: 0 1.1rem;
+  border: 1px solid rgba(128, 128, 128, 0.493);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__search-bar:focus {
+  outline: none;
+}
+
+.container__search:hover {
+  box-shadow: .1px .1px 3.4px rgba(0, 0, 0, 0.397)
+}
+
+.container__search-bar {
+  width: 90%;
+  border: 0;
+  height: 100%;
+  padding-left: .3rem;
+  margin: 0 .5rem;
+  line-height: 224%;
+}
+
+.fa-search {
+  color: rgb(143, 143, 143);
+}
+
+.buttons {
+  margin: auto;
+  width: fit-content;
+  margin-top: 2rem;
+}
+
+.buttons button {
+  padding: .65rem 1.15rem;
+  margin: 0 0.2rem;
+  border: 0;
+  color: rgb(100, 100, 100);
+  border-radius: 5px;
+}
+
+.container__text {
+  width: fit-content;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.container__text a {
+  margin: 0 .2rem;
+  color: blue;
 }
